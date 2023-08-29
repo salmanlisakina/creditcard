@@ -1,0 +1,72 @@
+.wrapper{
+    max-width: 1000px;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 310px;
+    height: 200px;
+    min-width: 300px;
+    background-color: #8e44ad;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.card:nth-child(2) {
+    background-color: #009432;}
+.card:nth-child(3) {
+    background-color: #0652DD;}
+.card:nth-child(4) {
+    background-color: #161617;}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+    
+#chip{
+    width: 50px;
+    padding-top: 35px;
+    margin-left: -5px;
+}
+#card-num{
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+#card-name{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-family: monospace;
+}
+
+p{
+    margin: 0;
+}
+
+.wraper3{
+    display: flex;
+    justify-content: space-between;
+}
+
+#val{font-family:'Tahoma', sans-serif ;
+}
+#tarix{
+    font-family: 'Tahoma', sans-serif;
+}
+#val{
+    font-size: 9px;
+}
+#visa{
+    width: 100px;
+    height: 35px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
